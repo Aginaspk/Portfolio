@@ -1,0 +1,31 @@
+.project-cont{
+    height: 100vh;
+}
+.h3{
+    margin-top: 10rem;
+}
+.pro{
+    height: 60vh;
+}
+.pro-image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    margin-top: 10rem;
+}
+.pro-image>img{
+    width: inherit;
+}
+
+
+@media screen and (max-width: 540px) {
+    .h3{
+        margin-top: 2rem;
+    }
+    .pro-image{
+        margin-top: 2rem;
+    }
+    .pro{
+        height: auto;
+    }
+}

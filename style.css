@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #f8f8f8;
+}
+
+.navbar{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: sticky;
+    top: 0;
+    background-color: #f8f8f8;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 2rem;
+    padding: 5px 10px 5px 9px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+.nav-link{
+    font-size: 1.1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+.nav-link:hover, .projects>a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+.nav-item{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+#arrow{
+    height: 1.1rem;
+    width: 1.1rem;
+}
+#cont{
+    display: none;
+}
+.main{
+    margin-bottom: 4rem;
+}
+.main-content{
+    padding-left: 200px;
+    padding-top: 8rem;
+}
+.hello{
+    font-size: 10rem;
+    letter-spacing: 5px;
+}
+.h6>img{
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.h5{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.h5>img{
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.magicpattern { 
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.magicpattern>div{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.magicpattern>div>img{
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+}
+/* .about-section{
+    background-color: #7b7b7b;
+    color: #222;
+} */
+.about{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding: 1rem 0px 7rem;
+}
+.detail{
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.follow{
+    padding: 7rem 0rem 5rem;
+    margin: 0;
+    padding-left: 150px;
+    letter-spacing: 5px;
+}
+.follow>a>img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+}
+.projects{
+    border-left: 1px solid black;
+    padding-left: 1rem;
+    text-align: center;
+    margin-top: 9rem;
+    word-spacing: -1px;
+}
+.projects>a{
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* .project-link{
+    height: 50px;
+    width: 250px;
+    padding-left: 50px;
+    padding-top: 14rem;
+}
+.project-link>button{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.project-link>button>a{
+    list-style: none;
+    color: #f8f8f8;
+} */
+/* .about-svg{
+    display: flex;
+    align-items: center;
+} */
+.skill{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding: 2rem 0px 2rem;
+}
+ .skillcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .icons>img{
+    height: 50px;
+
+ }
+ .progress1{
+    height: 50px;
+    display: flex;
+    margin: 30px 0px;
+    align-items: center;
+ }
+
+ 
+.footer-icon>a>img{
+    width: 50px;
+    height: 50px;
+    padding: 0px 10px;
+}
+
+
+
+.container1 {
+    margin: 100px auto;
+    width: 1000px;
+    text-align: center;
+}
+  
+.progress {
+    height: 30px;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+  
+  .progress-bar {	
+    height: 18px;
+    background-color: #ee303c;  
+    border-radius: 4px; 
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-bar { 	
+    background-color: rgba(0, 0, 0,.5); 
+    background-image: linear-gradient(
+          45deg, rgba(0, 0, 0) 25%, 
+          transparent 25%, transparent 50%, 
+          rgba(0, 0, 0) 50%, rgba(0, 0, 0) 75%,
+          transparent 75%, transparent); 
+  }
+  .progress-bar>h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    
+  }	
+
+  
+  @keyframes progressAnimationStrike1 {
+       from { width: 0% }
+       to   { width: 90% }
+  }
+  @keyframes progressAnimationStrike2 {
+    from { width: 0% }
+    to   { width: 70% }
+}
+@keyframes progressAnimationStrike3 {
+    from { width: 0% }
+    to   { width: 50% }
+}
+@keyframes progressAnimationStrike4 {
+    from { width: 0% }
+    to   { width: 1% }
+}
+@keyframes progressAnimationStrike5 {
+    from { width: 0% }
+    to   { width: 1% }
+}
+
+
+
+
+@media screen and (max-width: 540px) {
+    #cont {
+        display: block;
+    }
+    .main-content{
+        padding-left: 0;
+        padding-top: 50px;
+        
+    }
+    .follow{
+        padding-left: 50px;
+    }
+    .container1{
+        width: 400px;
+    }
+    .about{
+        padding-top: 0;
+    }
+    .magicpattern>div>img{
+        margin-top: 0;
+    }
+}
